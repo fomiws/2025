@@ -13,7 +13,7 @@ const importantDates =
 '<li> Paper submission deadline: <strike></strike> 01 June 2025 </li>\n' +
 '<li> Notification of acceptance: <strike></strike> 14 July 2025 </li>\n' +
 '<li> Author registration: to be communicated </li>\n' +
-'<li> JOWO workshop days co-located with FOIS 2024 (exact FOMI date TBD): 08-09 September 2025 </li>\n' +
+'<li> JOWO workshop days co-located with FOIS 2025 (exact FOMI date TBD): 08-09 September 2025 </li>\n' +
 '<li> Camera-ready submission: 01 September 2025 </li>\n'
 const events = [ // Array of date and text pairs
     // { date: "July 2, 2021", text: "The deadline for submission of papers for FOMI2021 has been extend until 9. July 2021." },

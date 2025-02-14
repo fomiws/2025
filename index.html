@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOMI</title>
+
+    <link rel="stylesheet" type="text/css" href="css/fomi2025.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <center>
+        <div style="height: 10px;"></div>
+        <iframe src="menu.html" style="border: medium none ;" height="200" width="100%"></iframe>
+
+        <table class="main">
+            <tbody>
+                <tr>
+                    <td class="standard">
+
+                        <div class="h1" style="padding-top: 15px;">
+                            <script>pprint(title);</script>
+                        </div>
+                        <div class="h2" style="padding-top: 8px;">
+                            <script>pprint(date);</script>,
+                            <script>pprint(place);</script>
+                        </div>
+                        <div class="h2" style="padding-top: 5px;">
+                            Part of the <a href="http://www.iaoa.org/jowo/" target="_blank">Joint Ontology Workshops</a>
+                            (JOWO
+                            <script>pprint(year);</script>) colocated with <a
+                                href="https://www.utwente.nl/en/eemcs/fois2024/" target="_blank"> 14th international
+                                conference on formal ontology in information systems (FOIS) 2024</a>
+                        </div>
+
+                        <!-- ================================================ -->
+                        <div class="section" style="padding-top: 25px; padding-bottom: 0px;">Important dates</div>
+                        <!-- ================================================ -->
+
+                        <ul style="line-height: 2;" type="square">
+                            <script>pprint(importantDates);</script>
+                        </ul>
+
+
+
+                        <!-- ================================================ -->
+                        <div class="section" style="padding-top: 5px; padding-bottom: 0px;">Scope</div>
+                        <!-- ================================================ -->
+
+                        <div style="vertical-align: top; padding-bottom: 10px;">
+                            FOMI has established itself as an international forum where academic researchers and
+                            industry professionals come together to analyze and discuss practical challenges related to
+                            methods, theories, tools, and applications grounded in formal ontologies. There is broad
+                            consensus today that knowledge modeling and the semantic dimension of information are
+                            becoming increasingly crucial in the networked economy. Semantic-based applications aim to
+                            offer frameworks for knowledge and information sharing, reliable data exchange, meaning
+                            negotiation, and coordination both across distinct organizations and within the same
+                            organization.
+                        </div>
+
+                        <div style="vertical-align: top; padding-bottom: 10px;">
+                            Theoretical ideas often appear highly promising, yet their practical implementation
+                            frequently reveals unforeseen challenges and issues.
+                            The FOMI
+                            <script>pprint(year)</script> Workshop seeks to gather valuable insights and lessons learned
+                            by showcasing:
+
+                            <ol>
+                                <li> Experiences with challenges in applying ontologies.</li>
+                                <li> Fresh perspectives on well-known problematic issues.</li>
+                                <li> Novel research findings.</li>
+                                <li> Success stories and observations from ontology implementations.</li>
+                                <li> Insights and lessons on effectively applying ontological methodologies to
+                                    real-world scenarios.</li>
+                            </ol>
+                        </div>
+
+                        <div style="vertical-align: top; padding-bottom: 10px;">
+                            FOMI
+                            <script>pprint(year)</script> will foster open discussions and the exchange of experiences.
+                            Similar challenges often emerge across diverse ontology applications, and open dialogue can
+                            help identify commonalities and share ideas for potential solutions. FOMI welcomes
+                            researchers and practitioners from all fields who share this perspective, with no
+                            restrictions on the domains addressed, including business, medicine, engineering, finance,
+                            law, biology, geography, electronics, and more.
+                        </div>
+
+                        <div style="vertical-align: top; padding-bottom: 10px;"></div>
+                        The FOMI series is supported by the <a href="https://iaoa.org/" target="_blank"> Association for Ontology and its Applications (IAOA)</a> 
+                        and organized by the <a href="https://iaoa.org/index.php/faq/industry-and-standards-technical-committee/" target="_blank"> IAOA-ISTC committee</a>.
+                        </div>
+
+
+                        <!-- ================================================ -->
+                        <div class="section" style="padding-top: 15px; padding-bottom: 0px;">Registration</div>
+                        <!-- ================================================ -->
+
+                        For registration to the workshop, please visit this <a id="registrationAnchor"
+                            target="_blank">page</a>. <!--Online participation is completely free.-->
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+    <script>
+        const registrationAnchor = document.getElementById("registrationAnchor");
+        registrationAnchor.setAttribute("href", registrationLink);
+    </script>
+</body>
+
+</html>

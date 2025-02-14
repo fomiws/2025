@@ -1,0 +1,32 @@
+<div class="menu">
+    <a class="scroll" href="#intro">Home</a>
+    
+    <a class="scroll" href="#about">About</a>
+    
+    <a class="scroll" href="#services">Services</a>
+    
+    <a class="scroll" href="#team">Team</a>
+    
+    <a class="scroll" href="#portfolio">Portfolio</a>
+    
+    <a class="scroll" href="#contact">Contact</a>
+    
+    </div>
+
+<style>
+    .menu a:hover {
+        background:#e9d319;
+        color: #000;
+    }
+    .menu a.active {
+        background:#6d6c64;
+        color: rgb(112, 33, 33);
+    }
+</style>
+
+<script>
+    $(".menu a").click(function() {
+    $(".menu a.active").removeClass("active");
+    $(this).addClass("active");
+})
+</script>

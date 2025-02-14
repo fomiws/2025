@@ -1,1 +1,1 @@
-# 2025
+Website for FOMI 2025 workshop

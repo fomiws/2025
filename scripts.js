@@ -6,7 +6,7 @@ const month = "September";
 const days = "08-09";
 const place = "Catania, Italy";
 const registrationLink = "to be communicated";
-const uploadPapersLink = "to be communicated"
+const uploadPapersLink = "https://easychair.org/my/conference?conf=fois2025"
 const JOWOlink = "http://iaoa.org/jowo/";
 
 const importantDates = 

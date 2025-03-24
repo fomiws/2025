@@ -33,33 +33,31 @@ const organizers = [
 const committeeList = 
 
 '<li>Alessandro Umbrico, CNR-ISTC, Italy</li>' +
+'<li>Alex Donkers, Eindhoven University of Technology, Netherlands</li>' +
+'<li>Antonio Maria Rinaldi, University of Naples Federico II, Italy</li>' +
 '<li>Bahar Aameri, University of Toronto, Canada</li>' +
 '<li>Boonserm Kulvatunyou, National Institute of Standards and Technology, USA</li>' +
+'<li>Cornelis Bouter, TNO, Netherlands</li>' +
 '<li>Daniele Spoladore, CNR-STIIMA, Italy</li>' +
 '<li>Emilio Sanfilippo, CNR-ISTC, Italy</li>' +
 '<li>Francesco Zaccarini, University of Bologna, Italy</li>' +
+'<li>Glenda Amaral, Central Bank of Brazil, Brazil</li>' +
 '<li>Hervé Panetto, University of Lorraine, France</li>' +
+'<li>Jean Paul Sebastian Piest, University of Twente, Netherlands</li>' +
+'<li>João Paulo Almeida, UFES, Brazil</li>' +
+'<li>Kelli Cordeiro, Ministry of Defense, Brazil</li>' +
 '<li>Laura Daniele, TNO, Netherlands</li>' +
 '<li>Laure Vieu, IRIT-CNRS, France</li>' +
+'<li>Luís Ferreira Pires, University of Twente, Netherlands</li>' +
+'<li>Luiz Olavo Bonino Da Silva Santos, University of Twente, Netherlands</li>' +
 '<li>Marcela Vegetti, CONICET, Argentina</li>' +
 '<li>María Poveda, Universidad Politécnica de Madrid, Spain</li>' +
-'<li>Peter Klein, Fraunhofer ITWM, Germany</li>' +
+'<li>Patricio de Alencar Silva, UFERSA, Brazil</li>' +
+'<li>Pedro Paulo F. Barcelos, University of Twente, Netherlands</li>' +
 '<li>Pieter Pauwels, Eindhoven University of Technology, Netherlands</li>' +
 '<li>Rebeca Arista, Airbus, France</li>' +
 '<li>Riichiro Mizoguchi, Japan Advanced Institute of Science and Technology, Japan</li>' +
-'<li>Silvia Chiacchiera, STFC UKRI, UK</li>' +
-'<li>João Paulo Almeida, UFES, Brazil</li>' +
-'<li>Luís Ferreira Pires, University of Twente, Netherlands</li>' +
-'<li>Luiz Olavo Bonino Da Silva Santos, University of Twente, Netherlands</li>' +
-'<li>Cornelis Bouter, TNO, Netherlands</li>' +
-'<li>Kelli Cordeiro, Ministry of Defense, Brazil</li>' +
-'<li>Patricio de Alencar Silva, UFERSA, Brazil</li>' +
-'<li>Pedro Paulo F. Barcelos, University of Twente, Netherlands</li>' +
-'<li>Renata Guizzardi, University of Twente, Netherlands</li>' +
-'<li>Glenda Amaral, Central Bank of Brazil, Brazil</li>' +
-'<li>Jean Paul Sebastian Piest, University of Twente, Netherlands</li>' +
-'<li>Alex Donkers, Eindhoven University of Technology, Netherlands</li>' +
-'<li>Antonio Maria Rinaldi, University of Naples Federico II, Italy</li>' 
+'<li>Silvia Chiacchiera, STFC UKRI, UK</li>'
 
 function createTable() {
     var tableHTML = '';

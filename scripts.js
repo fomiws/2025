@@ -10,7 +10,7 @@ const uploadPapersLink = "https://easychair.org/my/conference?conf=fois2025"
 const JOWOlink = "http://iaoa.org/jowo/";
 
 const importantDates = 
-'<li> Paper submission deadline: <strike>25 May 2025</strike> 01 June 2025 </li>\n' +
+'<li> Paper submission deadline: <strike>25 May 2025</strike>   <strike>01 June 2025</strike>  10 June 2025 </li>\n' +
 '<li> Notification of acceptance: <strike></strike> 14 July 2025 </li>\n' +
 '<li> Author registration: to be communicated </li>\n' +
 '<li> Camera-ready submission: 01 September 2025 </li>\n'+

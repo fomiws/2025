@@ -28,7 +28,7 @@ const events = [ // Array of date and text pairs
 ];
 const organizers = [
     { name: "João Luiz Rebelo Moreira", email: "j.luizrebelomoreira@utwente.nl" },
-    { name: "Walter Terkaj", email: "walter.terkaj@stiima.cnr.it" },
+    { name: "Walter Terkaj", email: "walter.terkaj@cnr.it" },
 ]
 const committeeList = 
 
@@ -54,6 +54,7 @@ const committeeList =
 '<li>María Poveda, Universidad Politécnica de Madrid, Spain</li>' +
 '<li>Patricio de Alencar Silva, UFERSA, Brazil</li>' +
 '<li>Pedro Paulo F. Barcelos, University of Twente, Netherlands</li>' +
+'<li>Peter Klein, Fraunhofer ITWM, Germany</li>' +
 '<li>Pieter Pauwels, Eindhoven University of Technology, Netherlands</li>' +
 '<li>Rebeca Arista, Airbus, France</li>' +
 '<li>Riichiro Mizoguchi, Japan Advanced Institute of Science and Technology, Japan</li>' +

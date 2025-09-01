@@ -3,18 +3,18 @@
 const edition = "14th";
 const year = 2025;
 const month = "September";
-const days = "08-09";
+const days = "09";
 const place = "Catania, Italy";
-const registrationLink = "to be communicated";
+const registrationLink = "https://www.dmi.unict.it/fois2025/?page_id=728";
 const uploadPapersLink = "https://easychair.org/my/conference?conf=fois2025"
 const JOWOlink = "http://iaoa.org/jowo/";
 
 const importantDates = 
 '<li> Paper submission deadline: <strike>25 May 2025</strike>   <strike>01 June 2025</strike>  10 June 2025 </li>\n' +
 '<li> Notification of acceptance: <strike></strike> 14 July 2025 </li>\n' +
-'<li> Author registration: to be communicated </li>\n' +
 '<li> Camera-ready submission: 01 September 2025 </li>\n'+
-'<li> JOWO workshop days co-located with FOIS 2025 (exact FOMI date TBD): 08-09 September 2025 </li>\n'
+'<li> JOWO workshop days co-located with FOIS 2025: 08-09 September 2025 </li>\n'+
+'<li> FOMI workshop day: 09 September 2025 </li>\n'
 
 
 const events = [ // Array of date and text pairs
